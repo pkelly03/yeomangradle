@@ -1,0 +1,4 @@
+task everything(type: GradleBuild) {
+    description = 'Builds everything'
+    tasks = ['build', 'jstest']
+}

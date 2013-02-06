@@ -1,1 +1,0 @@
-"use strict";var yeomangradleApp=angular.module("yeomangradleApp",[]).config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}]);"use strict",yeomangradleApp.controller("MainCtrl",function(a){a.awesomeThings=["HTML5 Boilerplate","AngularJS","Testacular"]});
